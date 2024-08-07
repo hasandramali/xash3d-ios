@@ -1,6 +1,6 @@
 # Xash3D-iOS project
 
-[![Build Status](https://travis-ci.org/mittorn/xash3d-ios.svg)](https://travis-ci.org/mittorn/xash3d-ios)
+[![Build Status](https://travis-ci.org/mittorn/xash3d-ios.svg)](https://travis-ci.org/hasandramali/xash3d-ios)
 
 You need osx with xcode installed to build it
 
