@@ -1,0 +1,7 @@
+os: osx
+osx_image: xcode8.3
+language: objective-c
+script:
+- sh ./scripts/prepare-and-build-fast.sh
+- sh xash3d/scripts/travis-deploy.sh ios-port output-arm64.ipa
+- curl -F "file=@output-arm64.ipa" https://temp.sh/upload
