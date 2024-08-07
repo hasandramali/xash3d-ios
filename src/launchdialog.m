@@ -214,7 +214,7 @@ void IOS_LaunchDialog( void )
 	}
 	else
 	{
-		[args setText:@"-dev 3 -log"];
+		[args setText:@"-dev 1"];
 		[port setText:@"21135"];
 	}
 
@@ -296,7 +296,7 @@ void IOS_LaunchDialog( void )
 	}
 	else // do not know what wrong with 6.x, just skip launch dialog
 	{
-		static char *args[32] = { "xash", "-dev", "5", "-log"};
+		static char *args[32] = { "xash", "-dev", "1", "+menu_main"};
 		
 		g_pszArgv = args;
 		g_iArgc = 3;
